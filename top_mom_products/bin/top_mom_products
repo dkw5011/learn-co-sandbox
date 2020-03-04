@@ -1,1 +1,5 @@
 #!/usr/bin/env ruby
+
+require_relative '../lib/top_mom_products'
+
+TopMomProducts::CLI.new.call
